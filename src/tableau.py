@@ -50,6 +50,7 @@ class Tableau(object):
                 self.tab = c
         
         self.__objectives_provided = True
+        self.tab = self.tab.astype(np.float64)
         
     
     def add_constraints(self, A, b):
@@ -76,3 +77,4 @@ class Tableau(object):
             self.tab = constraints
         
         self.__constraints_provided = True
+        self.tab = self.tab.astype(np.float64)
