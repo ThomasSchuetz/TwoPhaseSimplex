@@ -4,6 +4,8 @@ Created on Wed Oct  2 21:48:41 2019
 
 @author: tschu
 """
+import sys
+sys.path.insert(1, '../src')
 
 import simplex
 import unittest

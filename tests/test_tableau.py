@@ -4,6 +4,8 @@ Created on Wed Oct  2 22:42:14 2019
 
 @author: tschu
 """
+import sys
+sys.path.insert(1, '../src')
 
 import tableau
 import unittest
